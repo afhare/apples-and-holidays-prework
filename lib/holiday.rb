@@ -61,7 +61,6 @@ def all_supplies_in_holidays(holiday_hash)
       holi_caps = holi_words.capitalize!
       holi_final = holi_caps.join(" ")
       end
-    end
     puts "#{holi_final}: #{supply.join(",")}"
 end
 
