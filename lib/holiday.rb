@@ -69,7 +69,9 @@ def all_supplies_in_holidays(holiday_hash)
       holi_name = holiday.to_s
       holi_words = holi_name.split(" ")
       holi_caps = holi_words.capitalize!
-      holi_final = holi_caps.join
+      holi_final = holi_caps.join(" ")
+    end
+    puts holi
   end
 end
 
